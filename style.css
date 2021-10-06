@@ -1,0 +1,98 @@
+ 
+* {
+    margin: 0;
+
+}
+
+.sample{/*выравниваем по центру списки ссылок*/
+    text-align: center;
+}
+.links{ /* оформление ссылок на другие стр*/
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(100, 98, 98);
+    padding: 8px 16px;
+    border-radius:10px
+}
+html, body {
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #222;
+}
+
+.container {/*Настройка контейнера */
+    max-width: 1200px;
+    margin: 30px auto;
+    background: gray;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin: 20px 0 30px 0;
+}
+
+button {/*Параметры кнопки*/
+    background: firebrick;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+button:hover { /*Кнопка при наведении*/
+    background: orangered;
+}
+
+button:active {/*Кнопка при нажатии*/
+    background: #000;
+    color: #fff;
+}
+
+/*Параметры слайдера и движения*/
+.slider {
+    border: 2px solid black;
+    max-width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider-line { 
+    width: 1024px;
+    display: flex;
+    background: orange;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+header{
+    margin: 44px auto;
+    max-width: 85%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(73, 194, 153);
+}
+header.logo{
+    max-width: 100%;
+}
+header.logo img{
+    max-width: 100%; 
+    padding-bottom:0 ;   
+}
+img{
+    max-width: 100%;
+}
+header .menu_top{
+    list-style-type: none ;
+    
+}
+header.mnu_top{
+    display: inline-block;
+}
